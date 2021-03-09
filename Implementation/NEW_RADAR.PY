@@ -1,4 +1,5 @@
-''' this module will be used for plotting radar chart '''
+"""This module will be used for plotting radar chart & sub-plotting"""
+
 from cosolidated_data import *
 import numpy as np
 import matplotlib.pyplot as plt
@@ -11,7 +12,7 @@ bottom = bottom_performer()
 
 
 def student_radar_graph(ps_no):
-    ''' This function will be used for generating a radar graph for students '''
+    """Function for generating a radar graph for students"""
     new_list = my_data[ps_no]
     for i in range(0, 4):
         if(i == 0):
@@ -168,7 +169,7 @@ def student_radar_graph(ps_no):
 
 
 def faculty_radar_graph():
-    ''' This function will be used for generating a radar graph for faculties '''
+    """Function for generating a radar graph to faculties"""
     new_list = my_data[first_ps]
     for i in range(0, 4):
         if(i == 0):
