@@ -14,3 +14,10 @@ To setup this application in a system, one should install these Python libraries
 (l) encoders
 (m) MIMEMultipart 
 
+To install in Windows, use the following command -
+
+pip install <command_name>
+
+To install in Ubuntu, use the following command -
+
+sudo apt install python3-<command_name>
