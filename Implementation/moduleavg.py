@@ -13,4 +13,4 @@ def mod_avg():
     for i in range(1,7):
         prelist.append(pre_survey[f"LO_{i}"].mean())
     return prelist
-print(mod_avg())
+mod_avg()
