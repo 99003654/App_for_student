@@ -4,7 +4,7 @@ pygal
 openpyxl
 pytest
 pylint
-pil
+pillow
 numpy
 smtplib
 MIMEBase 
