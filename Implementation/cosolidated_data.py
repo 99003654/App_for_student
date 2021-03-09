@@ -1,50 +1,50 @@
-# import pandas as pd
-# import numpy as np
-# from ClassRoom import *
+import pandas as pd
+import numpy as np
+from ClassRoom import *
 
-# pre_test = pd.read_excel("pre_test.xlsx")
-# pre_survey = pd.read_excel("pre_survey.xlsx")
-# post_test = pd.read_excel("post_test.xlsx")
-# post_survey = pd.read_excel("post_survey.xlsx")
+pre_test = pd.read_excel("pre_test.xlsx")
+pre_survey = pd.read_excel("pre_survey.xlsx")
+post_test = pd.read_excel("post_test.xlsx")
+post_survey = pd.read_excel("post_survey.xlsx")
 
-# def module_max():
-#     p_t_max = []
-#     pre_test_max = []
-#     post_test_max = []
-#     pre_survey_max = []
-#     post_survey_max = []
-#     # print(post_test)
-#     for i in range(1,7):
-#         post_test_max.append(max(post_test[f'LO_{i}']))
-#         post_survey_max.append(max(post_survey[f'LO_{i}']))
-#         pre_test_max.append(max(pre_test[f'LO_{i}']))
-#         pre_survey_max.append(max(pre_survey[f'LO_{i}']))
+def module_max():
+    p_t_max = []
+    pre_test_max = []
+    post_test_max = []
+    pre_survey_max = []
+    post_survey_max = []
+    # print(post_test)
+    for i in range(1,7):
+        post_test_max.append(max(post_test[f'LO_{i}']))
+        post_survey_max.append(max(post_survey[f'LO_{i}']))
+        pre_test_max.append(max(pre_test[f'LO_{i}']))
+        pre_survey_max.append(max(pre_survey[f'LO_{i}']))
     
-#     p_t_max.append(pre_survey_max)
-#     p_t_max.append(pre_test_max)
-#     p_t_max.append(post_survey_max)
-#     p_t_max.append(post_test_max)
-#     return p_t_max
+    p_t_max.append(pre_survey_max)
+    p_t_max.append(pre_test_max)
+    p_t_max.append(post_survey_max)
+    p_t_max.append(post_test_max)
+    return p_t_max
 
 
-# def module_min():
-#     p_t_m = []
-#     pre_test_min = []
-#     post_test_min = []
-#     pre_survey_min = []
-#     post_survey_min = []
-#     # print(post_test)
-#     for i in range(1,7):
-#         pre_survey_min.append(min(pre_survey[f'LO_{i}']))
-#         post_survey_min.append(min(post_survey[f'LO_{i}']))
-#         pre_test_min.append(min(pre_test[f'LO_{i}']))
-#         post_test_min.append(min(post_test[f'LO_{i}']))
+def module_min():
+    p_t_m = []
+    pre_test_min = []
+    post_test_min = []
+    pre_survey_min = []
+    post_survey_min = []
+    # print(post_test)
+    for i in range(1,7):
+        pre_survey_min.append(min(pre_survey[f'LO_{i}']))
+        post_survey_min.append(min(post_survey[f'LO_{i}']))
+        pre_test_min.append(min(pre_test[f'LO_{i}']))
+        post_test_min.append(min(post_test[f'LO_{i}']))
     
-#     p_t_m.append(pre_survey_min)
-#     p_t_m.append(pre_test_min)
-#     p_t_m.append(post_survey_min)
-#     p_t_m.append(post_test_min)
-#     return p_t_m
+    p_t_m.append(pre_survey_min)
+    p_t_m.append(pre_test_min)
+    p_t_m.append(post_survey_min)
+    p_t_m.append(post_test_min)
+    return p_t_m
 
 
 # def module_avg():
