@@ -18,5 +18,7 @@ jobs:
       run:  sudo apt -y install python
     - name: Change folder
       run:  cd Implementation
-#     - name: Check
-#       run:  python NEW_RADAR.PY
+    - name: Install pylint
+      run:  pip install pylint
+    - name: Check
+      run:  pylint NEW_RADAR.PY 
