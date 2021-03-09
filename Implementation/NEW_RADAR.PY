@@ -10,7 +10,8 @@ topper = top_performer()
 bottom = bottom_performer()
 
 
-def student_radar_graph(ps_no):  
+def student_radar_graph(ps_no):
+    ''' This function will be used for generating a radar graph for students '''
     new_list = my_data[ps_no]
     for i in range(0, 4):
         if(i == 0):
@@ -167,6 +168,7 @@ def student_radar_graph(ps_no):
 
 
 def faculty_radar_graph():
+    ''' This function will be used for generating a radar graph for faculties '''
     new_list = my_data[first_ps]
     for i in range(0, 4):
         if(i == 0):
