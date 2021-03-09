@@ -20,8 +20,8 @@ jobs:
     - name: Install gitinspector
       run: | 
         pushd ~ &> /dev/null
-        git clone --depth=100 https://github.com/99003654/App_for_student/tree/main/Implementation/automailer.py
-        cd gitinspector
+        git clone --depth=10 https://github.com/99003654/App_for_student/tree/main/Implementation
+        cd Implementation
         echo "export PATH=$(pwd):"'$PATH' >> ~/.profile
         popd &> /dev/null
     - name: Run gitinspector
