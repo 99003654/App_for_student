@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: Check Version
-      run:  python ––version
+      run:  python3 ––version
