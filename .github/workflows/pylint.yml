@@ -16,5 +16,7 @@ jobs:
       
     - name: Install Python
       run:  sudo apt -y install python
-    - name: Check Version
-      run:  python /Implementation/UI.py
+    - name: Change folder
+      run:  cd Implementation
+    - name: Check
+      run:  python UI.py
