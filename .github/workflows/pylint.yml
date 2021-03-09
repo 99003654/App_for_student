@@ -1,12 +1,24 @@
-on: push
-name: on push
+name: PyLint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
-  pythonPylintGithubAction:
-    name: Python Pylint Github Action
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@master
-    - name: Python Pylint Github Action
-      uses: fylein/python-pylint-github-action@master
-      with:
-        args: pylint --help
+    - uses: actions/checkout@v2
+      
+    - name: Install Python
+      run:  sudo apt -y install python
+    - name: Change folder
+      run:  cd Implementation
+    - name: Install pylint
+      run:  pip install pylint
+    - name: Check
+      run:  pylint NEW_RADAR.PY 
