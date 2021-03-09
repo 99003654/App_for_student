@@ -20,7 +20,7 @@ jobs:
     - name: Install gitinspector
       run: | 
         pushd ~ &> /dev/null
-        git clone --depth=10 https://github.com/ejwa/gitinspector
+        git clone --depth=10 https://github.com/ejwa/gitinspector.git
         cd Implementation
         echo "export PATH=$(pwd):"'$PATH' >> ~/.profile
         popd &> /dev/null
