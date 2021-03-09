@@ -1,5 +1,16 @@
-pandas
-matplotlib
-pygal
-openpyxl
-pytest
+To setup this application in a system, one should install these Python libraries into the machine before executing them. They are as follows-
+
+(a) pandas
+(b) matplotlib
+(c) pygal
+(d) openpyxl
+(e) pytest
+(f) pylint
+(g) pil
+(h) numpy
+(i) smtplib
+(j) MIMEBase, MIMEText, MIMEMultipart
+(k) build_table
+(l) encoders
+(m) MIMEMultipart 
+
