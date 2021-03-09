@@ -36,4 +36,4 @@ jobs:
       - name: Run
         run: |
           cd Implementation
-          python main.py
+          python UI.py
