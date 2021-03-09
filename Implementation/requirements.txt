@@ -6,7 +6,6 @@ pytest
 pylint
 pillow
 numpy
-smtplib
 MIMEBase 
 MIMEText 
 MIMEMultipart
