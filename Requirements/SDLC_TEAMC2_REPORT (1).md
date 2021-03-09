@@ -76,7 +76,27 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 
 [*High Level Requirements:	7*](#__RefHeading___Toc2203_3397609625)
 
+**High level requirement**
+
+- Performance tracker will track score of 2 survey results and 2 test results. 
+- Will be able to work with as many modules as we want. 
+- Will give output in the form of spider chart. 
+- Will have different functionalities (such as mean, average, top performers etc.), which can be used individually or combination of these features and functionalities can be used for effective result. 
+
 [*Low Level Requirements:	7*](#__RefHeading___Toc2205_3397609625)
+
+
+**Low level requirement**
+
+- Scores will be taken from pre survey, post survey, pre test and post test. 
+- Each Individual will have own data of pre survey, post survey, pre test, post test in the form of spider chart. 
+- Score range will be 0 to 10 
+- Each student will have access to only his/her module and aggregate performance of the class. 
+- Performance of the students will be divided into three parts, Top performers will get green flag student who failed will get red flags and average performance student will be marked as yellow flag. 
+- Automated mail will be send to each and every faculty and students for continuous update regarding individual and class performance. 
+
+
+
 
 [Planning	8](#__RefHeading___Toc2207_3397609625)
 
