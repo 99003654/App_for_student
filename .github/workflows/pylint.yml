@@ -17,7 +17,7 @@ jobs:
     - name: Install Python
       run:  sudo apt -y install python
     - name: Install pylint
-      run:  sudo apt -get install pylint
+      run:  sudo apt install pylint
     - name: Change folder
       run:  cd Implementation
 #     - name: Check
