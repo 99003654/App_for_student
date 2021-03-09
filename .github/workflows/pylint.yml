@@ -14,5 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
+    - name: Install Python
+      run:  sudo apt install python3
     - name: Check Version
       run:  python3 ––version
