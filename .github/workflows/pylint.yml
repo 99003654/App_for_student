@@ -19,4 +19,4 @@ jobs:
     - name: Change folder
       run:  cd Implementation
     - name: Check
-      run:  python UI.py
+      run:  python NEW_RADAR.PY
