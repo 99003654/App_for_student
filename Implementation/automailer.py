@@ -59,29 +59,29 @@ for i in range(0, 10):
  post_test["post_test_total"] = arr
 
 def maximum():
-    maxpresurvey = pre_survey.nlargest(5, ["pre_survey_total"])
-    maxpretest=pre_test.nlargest(5, ["pre_test_total"]) 
-    maxpostsurvey = post_survey.nlargest(5, ["post_survey_total"])
-    maxpostest = post_test.nlargest(5, ["post_test_total"])
+    max_pre_survey = pre_survey.nlargest(5, ["pre_survey_total"])
+    max_pre_test=pre_test.nlargest(5, ["pre_test_total"]) 
+    max_post_survey = post_survey.nlargest(5, ["post_survey_total"])
+    max_post_test = post_test.nlargest(5, ["post_test_total"])
 
-    frames = [maxpresurvey, maxpretest, maxpostsurvey, maxpostest ]
+    frames = [max_pre_survey, max_pre_test, max_post_survey, max_post_test ]
     
     return (pd.concat(frames))
 
 
 
 def minimum():
-    minpresurvey = pre_survey.nsmallest(3, ["pre_survey_total"])
-    minpossurvey = post_survey.nsmallest(3, ["post_survey_total"])
-    minpretest = pre_test.nsmallest(3, ["pre_test_total"])
-    minpostest = post_test.nsmallest(3, ["post_test_total"]) 
+    min_pre_survey = pre_survey.nsmallest(3, ["pre_survey_total"])
+    min_post_survey = post_survey.nsmallest(3, ["post_survey_total"])
+    min_pre_test = pre_test.nsmallest(3, ["pre_test_total"])
+    min_post_test = post_test.nsmallest(3, ["post_test_total"]) 
 
-    frames = [minpresurvey,minpretest,minpossurvey,minpostest]
+    frames = [min_pre_survey, min_pre_test, min_post_survey, min_post_test]
     
     return (pd.concat(frames))
 
 
-def send_mail(body1,body2):
+def send_mail(body1, body2):
     faculty_radar_graph()
     
     image1 = 'Consolidated_class.png'
