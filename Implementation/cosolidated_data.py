@@ -47,23 +47,23 @@ def module_min():
     return p_t_m
 
 
-# def module_avg():
-#     presurveylist=[]
-#     possurveylist=[]
-#     pretestlist=[]
-#     postestlist=[]
-#     p = []
-#     for i in range(1,7):
-#         presurveylist.append(pre_survey[f"LO_{i}"].mean())
-#         possurveylist.append(post_survey[f"LO_{i}"].mean())
-#         pretestlist.append(pre_test[f"LO_{i}"].mean())
-#         postestlist.append(post_test[f"LO_{i}"].mean())
+def module_avg():
+    presurveylist=[]
+    possurveylist=[]
+    pretestlist=[]
+    postestlist=[]
+    p = []
+    for i in range(1,7):
+        presurveylist.append(pre_survey[f"LO_{i}"].mean())
+        possurveylist.append(post_survey[f"LO_{i}"].mean())
+        pretestlist.append(pre_test[f"LO_{i}"].mean())
+        postestlist.append(post_test[f"LO_{i}"].mean())
 
-#     p.append(presurveylist)
-#     p.append(pretestlist)
-#     p.append(possurveylist)
-#     p.append(postestlist)
-#     return p
+    p.append(presurveylist)
+    p.append(pretestlist)
+    p.append(possurveylist)
+    p.append(postestlist)
+    return p
 
 
 # def data_for_graph():
