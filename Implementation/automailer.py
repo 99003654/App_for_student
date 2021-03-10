@@ -11,6 +11,7 @@ from pretty_html_table import build_table
 from email import encoders
 from NEW_RADAR import *
 
+
 pre_survey = pd.read_excel("pre_survey.xlsx")
 post_survey = pd.read_excel("post_survey.xlsx")
 pre_test = pd.read_excel("pre_test.xlsx")
@@ -25,13 +26,13 @@ pre_survey_list2 = []
 pos_survey_list1 = []
 pos_survey_list2 = []
 
-for i in range(0, 10):
+for i in range(0, len(pre_survey.columns)):
     sum1 = 0
     sum2 = 0
     sum3 = 0
     sum4 = 0
 
-    pre_survey_list1 = pre_test.iloc[i, 4:10]
+    pre_survey_list1 = pre_test.iloc[i, 4:1en(df.columns)0]
     sum1 = sum(pre_survey_list1)
     pre_survey_list2.append(sum1)
 
@@ -135,7 +136,7 @@ def send_mail_student():
     list1 = ['ashish.pareek@ltts.com', 'lalit.bhardwaj@ltts.com', 'ashish.nayak@ltts.com', 'prashantsudhir.bagal@ltts.com', 'aakarsh.mehta@ltts.com',
              'yash.jhajharia@ltts.com', 'manzar.hussain@ltts.com', 'digendrakumar.sahu@ltts.com', 'ankitkumar.yadav@ltts.com', 'manu.nadar@ltts.com']
     psnumber = get_PS()
-    for i in range(0, 10):
+    for i in range(0, len(pre_survey.columns)):
         student_radar_graph(psnumber[i])
         image1 = f'Consolidated_{psnumber[i]}.png'
         sender_email = 'learningcorporate7@gmail.com'
