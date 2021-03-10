@@ -13,12 +13,15 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`99003708` | Ashish Nayak  | Email trigger, Email Automation Test Plans, workflow.   | Yes    | yes   |  2   |  2     
-`99003655` | Ashish Pareek  | Spider Chart , Pandas and matplotlib, Seaborn , UML diagram, Data Analysis for faculty.   |  Yes     | Yes  |  2   | 2    
-`99003651` | Deepak Pradhan  | Excel data, Gantt chart, Test Plans, SWOT Analysis, Pylint  | Yes     | Yes   | 2  | 2     
-`99003706` | Lalit Bhardwaj  | Team Report, UML diagrams, Pandas and matplotlib, Data Analysis | Yes   | Yes  | 2   | 2     
+PS No.    |  Name           |    Features                        |                                 Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
+----------|--------------- -|------------------------------------|-------------------------|---------------|-------------|--------------
+`99003608`| Aakarsh Mehta   | Data analysis, Radar graph, Sub-Plotting, Consolidated graph.                                  | Yes   | Yes  |  2   | 2     
+`99003655`| Ashish Pareek   | Data Extraction, Data Analysis and Automailer for Faculty.                                     | Yes   | Yes  |  2   | 2    
+`99003651`| Digendra Sahu   | Data Extraction, Consolidated Graph, Data Analysis, Main File Implementation, Code-Integration | Yes   | Yes  |  2   | 2     
+`99003706`| Lalit Bhardwaj  | Requirement gathering,Data Analysis, Git inspector,Pylint and PyTest.                          | Yes   | Yes  |  2   | 2     
+ 99003706`| Omprakash Harod | Radar chart for students and faculty, subplotting of graphs, consolidated graph                | Yes   | Yes  |  2   | 2     
+ 99003706`| Manzar Hussain  | Requirement gathering,Data Analysis, Git inspector,Pylint and PyTest.                          | Yes   | Yes  |  2   | 2     
+ 99003706`| Yash Jhajharia  | Ui using Tkinter , Auto mailer for student , Exception handling.                               | Yes   | Yes  |  2   | 2     
 
 ## Git Inspector
 
