@@ -29,8 +29,7 @@ Folder             | Description
 
 ## Gantt Chart
 
-![alt_text](https://github.com/99003655/AppliedSDLC_C4/blob/main/Gantt%20Chart.png)
-
+![alt_text](https://github.com/99003654/App_for_student/blob/main/Gantt_chart.png)
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
