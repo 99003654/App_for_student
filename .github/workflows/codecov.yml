@@ -13,6 +13,7 @@ jobs:
       - name: Unit tests 🧪
         run: npm test
 
+
       - name: Check all covered files 📊
         run: |
           node bin/check-coverage main1.js
