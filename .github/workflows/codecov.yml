@@ -9,12 +9,12 @@ jobs:
 
       - name: Install NPM dependencies 📦
         run: sudo apt-get install npm
-      - name: Install NPM
-        run: install npm
-      - name: update 
-        run: update npm
-      - name: Unit tests 
-        run: npm test
+#       - name: Install NPM
+#         run: install npm
+#       - name: update 
+#         run: update npm
+#       - name: Unit tests 
+#         run: npm test
 
 
       - name: Check all covered files 📊
