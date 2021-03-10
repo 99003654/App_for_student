@@ -12,16 +12,8 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 
 ## Contributors List and Summary
+![alt_text](https://github.com/99003654/App_for_student/blob/main/Contribution.PNG)
 
-PS No.    |  Name           |    Features                        |                                 Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
-----------|--------------- -|------------------------------------|-------------------------|---------------|-------------|--------------
-`99003608`| Aakarsh Mehta   | Data analysis, Radar graph, Sub-Plotting, Consolidated graph.                                  | Yes   | Yes  |  2   | 2     
-`99003655`| Ashish Pareek   | Data Extraction, Data Analysis and Automailer for Faculty.                                     | Yes   | Yes  |  2   | 2    
-`99003651`| Digendra Sahu   | Data Extraction, Consolidated Graph, Data Analysis, Main File Implementation, Code-Integration | Yes   | Yes  |  2   | 2     
-`99003706`| Lalit Bhardwaj  | Requirement gathering,Data Analysis, Git inspector,Pylint and PyTest.                          | Yes   | Yes  |  2   | 2     
- 99003706`| Omprakash Harod | Radar chart for students and faculty, subplotting of graphs, consolidated graph                | Yes   | Yes  |  2   | 2     
- 99003706`| Manzar Hussain  | Requirement gathering,Data Analysis, Git inspector,Pylint and PyTest.                          | Yes   | Yes  |  2   | 2     
- 99003706`| Yash Jhajharia  | Ui using Tkinter , Auto mailer for student , Exception handling.                               | Yes   | Yes  |  2   | 2     
 
 ## Git Inspector
 
