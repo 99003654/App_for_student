@@ -16,7 +16,7 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 |1||Name/PS No|Name/PS No|Module Owner Name|Comments |
 |2|04/03/2021|MANZAR HUSSAIN/99003654||||
 |3|04/03/2021|AAKARSH MEHTA/99003608||||
-|4|04/03/2021|LALIT BHARDWAJ/99003706||||
+|4|04/03/2021|ASHISH PAREEK/99003655||||
 |5|04/03/201|DIGENDRA    K. SAHU/99003709||||
 |6|04/03/2021|YASH JHAJHARIA/99003616|||<p></p><p></p><p></p>|
 |7|04/03/2021|OMPRAKASH HAROD/99003713||||
