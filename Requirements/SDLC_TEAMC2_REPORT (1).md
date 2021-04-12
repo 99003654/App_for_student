@@ -41,39 +41,8 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 - Score range will be 0 to 10 
 - Each student will have access to only his/her module and aggregate performance of the class. 
 - Performance of the students will be divided into three parts, Top performers will get green flag student who failed will get red flags and average performance student will be marked as yellow flag. 
-- Automated mail will be send to each and every faculty and students for continuous update regarding individual and class performance. 
+- Automated mail will be send to each and every faculty and students for continuous update regarding individual and class performance
 
-
-
-
-[Planning	8](#__RefHeading___Toc2207_3397609625)
-
-[**DESIGN AND ARCHITECTURE	8**](#__REFHEADING___TOC2209_3397609625)
-
-[a. Structural -	9](#__RefHeading___Toc2211_3397609625)
-
-[1. High level -	9](#__RefHeading___Toc2213_3397609625)
-
-[2 . Behavioural :-	10](#__RefHeading___Toc2215_3397609625)
-
-[a. High level :-	10](#__RefHeading___Toc2217_3397609625)
-
-[b. Low Level -	11](#__RefHeading___Toc2219_3397609625)
-
-[1. Faculty	11](#__RefHeading___Toc2221_3397609625)
-
-[	12](#__RefHeading___Toc2223_3397609625)
-
-
-
-
-
-
-
-
-
-
-**PERFORMANCE TRACKING**
 
 **REQUIREMENT AND PLAN**
 
