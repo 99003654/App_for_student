@@ -24,59 +24,6 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 |||||||
 |||||||
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Document History**
-
-**Table of Contents**
-
-` `**TOC \F \O "1-9" \H[PERFORMANCE TRACKING	4**](#__REFHEADING___TOC2171_3397609625)**
-
-[REQUIREMENT AND PLAN	4](#__RefHeading___Toc2173_3397609625)
-
-[Need:	4](#__RefHeading___Toc2175_3397609625)
-
-[*Introduction :	4*](#__RefHeading___Toc2177_3397609625)
-
-[Feasibility Analysis	4](#__RefHeading___Toc2179_3397609625)
-
-[*Market feasibility -:	4*](#__RefHeading___Toc2181_3397609625)
-
-[*Technical feasibility -:	4*](#__RefHeading___Toc2183_3397609625)
-
-[MY PRODUCT	4](#__RefHeading___Toc2185_3397609625)
-
-[*High level requirement	5*](#__RefHeading___Toc2187_3397609625)
-
-[*Low level requirement	5*](#__RefHeading___Toc2189_3397609625)
-
-[SWOT:	5](#__RefHeading___Toc2191_3397609625)
-
-[4 W's and 1 H-	6](#__RefHeading___Toc2193_3397609625)
-
-[*What -	6*](#__RefHeading___Toc2195_3397609625)
-
-[*Why-	7*](#__RefHeading___Toc2197_3397609625)
-
-[*When-	7*](#__RefHeading___Toc2199_3397609625)
-
-[Requirements (HL , LL) –	7](#__RefHeading___Toc2201_3397609625)
-
-[*High Level Requirements:	7*](#__RefHeading___Toc2203_3397609625)
-
 **High level requirement**
 
 - Performance tracker will track score of 2 survey results and 2 test results. 
