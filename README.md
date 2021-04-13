@@ -15,7 +15,6 @@ Folder             | Description
 ## Contributors List and Summary
 ![alt_text](https://github.com/99003654/App_for_student/blob/main/Contribution.PNG)
 
-
 ## Git Inspector
 
 ![alt_text](https://github.com/99003654/App_for_student/blob/main/gitinspector.JPG)
