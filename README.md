@@ -17,7 +17,7 @@ Folder             | Description
 
 ## Git Inspector
 
-![alt_text](https://github.com/99003654/App_for_student/blob/main/gitinspector.JPG)
+![alt_text](https://github.com/99003654/App_for_student/blob/main/Git_Inspector.JPG)
 
 ## Challenges Faced and How It Was Overcome
 
